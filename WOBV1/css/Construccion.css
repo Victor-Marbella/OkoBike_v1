@@ -1,0 +1,38 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('../img/construccion.jpg') no-repeat center center fixed;
+    background-size: cover;  /* Asegura que la imagen cubra todo el fondo */
+}
+
+/* Estilos para el contenedor del botón */
+.button-container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);  /* Fondo semitransparente */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Estilos para el botón */
+button {
+    background-color: #06dba2;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Cambio de color al pasar el ratón */
+button:hover {
+    background-color: #b92020;
+}
+
